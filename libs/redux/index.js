@@ -108,6 +108,7 @@ module.exports.mount = function (request, response, next) {
         version: request.headers.version,
         originalUrl: request.originalUrl
     });
+    console.log("REDUXPRESSS", reduxOptions)
     reduxOptions.filters = filters;
     var redux = new Redux(model, reduxOptions);
     request.redux = redux;
