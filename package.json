@@ -28,11 +28,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/rajatady/Reduxpress.git"
+        "url": "git+https://github.com/abhinav-fluidfincap/fluid-reduxpress"
     },
-    "author": "Kumar Divya Rajat <rajat.ady@gmail.com>",
+    "author": "Abhinav Alok <abhinav@fluidfincap.com>",
     "license": "MIT",
-    "homepage": "https://github.com/rajatady/Reduxpress",
     "dependencies": {
         "async": "^2.5.0",
         "bluebird": "^3.5.3",
