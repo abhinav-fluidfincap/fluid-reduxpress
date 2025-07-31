@@ -1,8 +1,11 @@
 {
-    "name": "reduxpress",
-    "version": "1.4.10",
+    "name": "fluid-reduxpress",
+    "version": "0.0.1",
     "description": "",
     "main": "libs",
+    "publishConfig": {
+        "access": "public"
+    },
     "types": "./@types/index.d.ts",
     "scripts": {
         "start": "nodemon example",

@@ -44,7 +44,7 @@ function Redux(model, options) {
     this.request = new Request();
     this.response = new Response();
     this.utils = Utils;
-    this.auth = new Auth(options.secret || 'secret');
+    this.auth = new Auth(options.secret);
     this.error = Err;
     this.crud = Crud;
     this.startTime = new Date().getTime();
